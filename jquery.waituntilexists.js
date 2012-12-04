@@ -6,9 +6,9 @@
 * @example $('div.comments').waitUntilExists(commentCallbackFunction || function () { alert('function does not exist.'); })
 */
 
-$.fn.waitUntilExists   = function (handler, shouldRunHandlerOnce, isChild) {
-	var found	= 'found';
-	var $this	= $(this.selector);
+$.fn.waitUntilExists	= function (handler, shouldRunHandlerOnce, isChild) {
+	var found		= 'found';
+	var $this		= $(this.selector);
 	var $elements	= $this.not(function () { return $(this).data(found); }).each(handler).data(found, true);
 	
 	if (!isChild)
