@@ -1,7 +1,7 @@
 /**
 * @function
 * @property {object} jQuery plugin which runs handler function once specified element is inserted into the DOM
-* @param {function} handler
+* @param {function} handler A function to execute at the time when the element is inserted
 * @param {bool} shouldRunHandlerOnce Optional: if true, handler is unbound after its first invocation
 * @example $(selector).waitUntilExists(function);
 */
