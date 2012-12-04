@@ -3,7 +3,7 @@
 * @property {object} jQuery plugin which runs handler function once specified element is inserted into the DOM
 * @param {function} handler
 * @param {bool} shouldRunHandlerOnce Optional: if true, handler is unbound after its first invocation
-* @example $('div.comments').waitUntilExists(commentCallbackFunction || function () { alert('function does not exist.'); })
+* @example $(selector).waitUntilExists(function);
 */
 
 $.fn.waitUntilExists	= function (handler, shouldRunHandlerOnce, isChild) {
