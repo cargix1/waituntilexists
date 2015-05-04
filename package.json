@@ -1,0 +1,15 @@
+{
+  "name": "jquery.waituntilexists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jquery.waituntilexists.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gist.github.com/6e79f06b4017d4fbd47b.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
